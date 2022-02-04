@@ -3,6 +3,7 @@ Ultralytics) https://github.com/ultralytics/yolov5 , but a small part of it is m
 
 ## Sample running of this integrated detection
 
+click for Youtube video
 [![Watch the video](https://img.youtube.com/vi/kytAdEwluh0/0.jpg)](https://www.youtube.com/watch?v=kytAdEwluh0)
 [![Watch the video](https://img.youtube.com/vi/m4a_l07OBoA/0.jpg)](https://www.youtube.com/watch?v=m4a_l07OBoA)
 [![Watch the video](https://img.youtube.com/vi/39NtR3_zZOU/0.jpg)](https://www.youtube.com/watch?v=39NtR3_zZOU)
