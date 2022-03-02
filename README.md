@@ -3,13 +3,13 @@
 This repository **"Object and lane detection with yolov5 Model"** is based on the open-source yolov5 model, and the function of lane detection is developed by some digital image processing methods, especially the Hough transformation.  **The yolov5 code, mostly references to ultralytics's repository (thanks to 
 Ultralytics) https://github.com/ultralytics/yolov5 , but a small part of it is my own adjustment, and are subject to modification or deletion without notice. Use at your own risk.**
 
-## Note
+#### Note
 **(This repository is suitable for a detection on the video/image from car DVR device, or street driving video. Please be aware of it, that the detection works well only if the scenario is regular and straight like the underlying examples.)**
 
 
-## Sample running of this integrated detection
+# Sample running of this integrated detection
 
-### click for Youtube video
+## click for Youtube video
 [![Watch the video](https://img.youtube.com/vi/kytAdEwluh0/0.jpg)](https://www.youtube.com/watch?v=kytAdEwluh0)
 [![Watch the video](https://img.youtube.com/vi/m4a_l07OBoA/0.jpg)](https://www.youtube.com/watch?v=m4a_l07OBoA)
 [![Watch the video](https://img.youtube.com/vi/39NtR3_zZOU/0.jpg)](https://www.youtube.com/watch?v=39NtR3_zZOU)
@@ -20,7 +20,7 @@ Ultralytics) https://github.com/ultralytics/yolov5 , but a small part of it is m
 <summary>Figure Comparison with other Networks</summary>
 <p align="center"><img width="800" src="https://user-images.githubusercontent.com/26833433/114313216-f0a5e100-9af5-11eb-8445-c682b60da2e3.png"></p>
 
-### Pretrained Checkpoints
+## Pretrained Checkpoints
 [assets]: https://github.com/ultralytics/yolov5/releases
 
 Model |size<br><sup>(pixels) |mAP<sup>val<br>0.5:0.95 |mAP<sup>test<br>0.5:0.95 |mAP<sup>val<br>0.5 |Speed<br><sup>V100 (ms) | |params<br><sup>(M) |FLOPS<br><sup>640 (B)
