@@ -174,27 +174,27 @@ if __name__ == '__main__':
     parser.add_argument('--conf-thres', type=float, default=0.7, help='object confidence threshold')
                             # confidence
     parser.add_argument('--iou-thres', type=float, default=0.45, help='IOU threshold for NMS')
-                            # IoU (intersection over union)交并比，识别重叠时，重叠部分比上总体区域
-                            # NMS非最大抑制，识别重合时，只有大于thres值，才看作一整个区域
+                            # IoU (intersection over union)
+                            # NMS (Non-Maximum Suppression), when intersection detected, only as this value is larger than a threshold, will the intersection be regarded as one region
     parser.add_argument('--device', default='0', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
     parser.add_argument('--view-img', action='store_true', help='display results')
-                            # 实时在图片中显示识别结果
+                            # display result in image/frame at real-time
     parser.add_argument('--save-txt', action='store_true', help='save results to *.txt')
     parser.add_argument('--save-conf', action='store_true', help='save confidences in --save-txt labels')
     parser.add_argument('--nosave', action='store_true', help='do not save images/videos')
     parser.add_argument('--classes', nargs='+', type=int, help='filter by class: --class 0, or --class 0 2 3')
-                            # 显示某一/些类别
+                            # display class(es)
     parser.add_argument('--agnostic-nms', action='store_true', help='class-agnostic NMS')
-                            # 增强nms
+                            # agnostic NMS
     parser.add_argument('--augment', action='store_true', help='augmented inference')
-                            # 增强检测
+                            # argument detection
     parser.add_argument('--update', action='store_true', help='update all models')
     parser.add_argument('--project', default='runs/detect', help='save results to project/name')
-                            # 输出保存的位置
+                            # adress to save the results
     parser.add_argument('--name', default='exp_detect', help='save results to project/name')
-                            # 输出文件夹的名字
+                            # output file's name
     parser.add_argument('--exist-ok', action='store_true', help='existing project/name ok, do not increment')
-                            # 是否新建一个文件夹/保留在原文件夹里
+                            # increment a new file or not
     opt = parser.parse_args()
     print(opt)
     check_requirements(exclude=('pycocotools', 'thop'))
