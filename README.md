@@ -1,7 +1,9 @@
 # Object and lane detection with yolov5 Model
 
 This repository **"Object and lane detection with yolov5 Model"** is based on the open-source yolov5 model, and the function of lane detection is developed by some digital image processing methods, especially the Hough transformation.  **The yolov5 code, mostly references to ultralytics's repository (thanks to 
-Ultralytics) https://github.com/ultralytics/yolov5 , but a small part of it is my own adjustment, and are subject to modification or deletion without notice. Use at your own risk.**
+Ultralytics) https://github.com/ultralytics/yolov5 , but a small part of it is my own adjustment, and are subject to modification or deletion without notice. Use at your own risk. (This repository is suitable for a detection on the video/image from car DVR device, or street driving video. Please be aware of it, that the detection works well only if the scenario is regular and straight like the underlying examples.)**
+
+
 
 ## Sample running of this integrated detection
 
