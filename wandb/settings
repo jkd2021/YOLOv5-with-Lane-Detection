@@ -1,0 +1,6 @@
+[default]
+entity = jkd2021
+mode = online
+project = w-b_jin
+base_url = https://api.wandb.ai
+
